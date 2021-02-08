@@ -5,7 +5,8 @@
         {
             "src": "/assets/icons/logo192x192.png",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any maskable"
         }
     ],
     "start_url": "/index.html",
