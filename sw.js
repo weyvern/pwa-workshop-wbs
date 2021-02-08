@@ -6,9 +6,13 @@ const resourcesToPreCache = [
   '/index.html',
   'app.js',
   '/assets/200.gif',
+  '/assets/icons/logo192x192.png',
+  '/manifest.json',
   'https://bootswatch.com/4/flatly/bootstrap.min.css',
   'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap',
-  'https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjx4wXg.woff2'
+  'https://fonts.gstatic.com/s/lato/v17/S6uyw4BMUTPHjx4wXiWtFCc.woff2',
+  'https://jsonplaceholder.typicode.com/posts',
+  'https://picsum.photos/200/200'
 ];
 // Install event
 self.addEventListener('install', async event => {
