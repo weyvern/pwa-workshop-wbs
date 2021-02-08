@@ -5,7 +5,6 @@ if ('serviceWorker' in navigator) {
     // Some basic error handling. Even if it fails, it'll try on the next load
     try {
       const reg = await navigator.serviceWorker.register('/sw.js');
-      console.log('Registered: ', reg);
     } catch (error) {
       console.log('Registration failed: ', err);
     }
